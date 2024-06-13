@@ -10,7 +10,7 @@ The contract has public variables that store the details about the coin:
   -token_Abbrv: Token abbreviation (string)
   
   -total_Supply: Total supply of the token (uint)
-  
+ # 
 
 The contract has a mapping of addresses to balances:
 
