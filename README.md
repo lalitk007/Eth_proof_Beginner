@@ -4,17 +4,26 @@
 A simple Solidity smart contract for managing a custom token.
 ## Requirements
 The contract has public variables that store the details about the coin:
+
   -token_Name: Token name (string)
+  
   -token_Abbrv: Token abbreviation (string)
+  
   -total_Supply: Total supply of the token (uint)
 
 The contract has a mapping of addresses to balances:
+
 map: Mapping of addresses to token balances (address => uint)
 
+
 The contract has a mint function:
+
 Parameters: address ad - the address to mint tokens to, uint val - the amount of tokens to mint
+
 Increases the total_Supply by val
+
 Increases the balance of the ad address by val
+
 
 The contract has a burn function:
 Parameters: address ad - the address to burn tokens from, uint val - the amount of tokens to burn
