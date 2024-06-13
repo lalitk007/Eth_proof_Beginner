@@ -1,6 +1,6 @@
 # Eth_proof_Beginner
 
-## My Token
+## MyToken
 A simple Solidity smart contract for managing a custom token.
 ## Requirements
 The contract has public variables that store the details about the token:
@@ -13,16 +13,16 @@ The contract has public variables that store the details about the token:
  #
 The contract has a mapping of addresses to balances:
 
-map: Mapping of addresses to token balances (address => uint)
+bal: Mapping of addresses to token balances (address => uint)
 
 #
 The contract has a mint function:
 
 Parameters: address ad - the address to mint tokens to, uint val - the amount of tokens to mint
 
-Increases the total_Supply by val
+  -increases the total_Supply by val
 
-Increases the balance of the ad address by val
+  -increases the balance of the ad address by val
 
 #
 The contract has a burn function:
