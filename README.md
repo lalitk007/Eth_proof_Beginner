@@ -3,7 +3,7 @@
 ## My Token
 A simple Solidity smart contract for managing a custom token.
 ## Requirements
-The contract has public variables that store the details about the coin:
+The contract has public variables that store the details about the token:
 
   -token_Name: Token name (string)
   
